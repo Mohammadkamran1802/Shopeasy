@@ -1,0 +1,99 @@
+/* Container for the entire product list */
+.product-list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 products per row by default */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Centers the items within each grid cell */
+  }
+  
+  /* Card style for each product */
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    height: 350px; /* Fixed height for all product cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content and button are spaced properly */
+  }
+  
+  /* Hover effect for the product card */
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image style for each product */
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 150px; /* Ensures image size consistency */
+    object-fit: contain; /* Keeps the aspect ratio intact */
+  }
+  
+  /* Product name styling */
+  .product-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #2c2626;
+  }
+  
+  /* Product brand styling */
+  .product-brand {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  /* Product price styling */
+  .product-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e74c3c;
+    margin: 10px 0;
+    flex-grow: 1; /* Prevents price from pushing button up */
+  }
+  
+  /* Button style for "View Details" */
+  .view-details-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Space between price and button */
+    align-self: center; /* Ensures button is centered */
+  }
+  
+  /* Hover effect for the button */
+  .view-details-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive design */
+  
+  /* Medium screens (2 products per row) */
+  @media (max-width: 1024px) {
+    .product-list-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 products per row */
+    }
+  }
+  
+  /* Small screens (1 product per row) */
+  @media (max-width: 768px) {
+    .product-list-container {
+      grid-template-columns: 1fr; /* 1 product per row */
+    }
+  }
+  
