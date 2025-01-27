@@ -121,7 +121,8 @@ http://localhost:3000
 
 
  ## Open BarcodeScanner:-click on Barcode Scanner on navbar and start scanning barcode
- <img width="212" alt="Scanning of Project" src="https://github.com/user-attachments/assets/ae584abc-bf23-4b2e-b976-cd3fb4c88721" />
+ <img width="941" alt="image" src="https://github.com/user-attachments/assets/c47971c2-b2b0-4dba-a7bd-fb586450c36d" />
+
 
  ## If Product found:-then show details of product
  <img width="209" alt="Produc Found" src="https://github.com/user-attachments/assets/6ecc3611-4af4-443f-a416-90a6473c31e4" />
