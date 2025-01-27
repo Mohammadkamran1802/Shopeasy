@@ -117,7 +117,8 @@ http://localhost:3000
  <img width="938" alt="Footer " src="https://github.com/user-attachments/assets/508111cd-4bca-40b3-971a-232001748e03" />
 
  ## Prduct Details :- just click on view details button
- <img width="212" alt="product details" src="https://github.com/user-attachments/assets/9d564288-b1d8-463e-8dcd-a1a829724fe9" />
+ <img width="933" alt="image" src="https://github.com/user-attachments/assets/7afdcc19-2428-4e99-b7da-75db9470ae9a" />
+
 
  ## Open BarcodeScanner:-click on Barcode Scanner on navbar and start scanning barcode
  <img width="212" alt="Scanning of Project" src="https://github.com/user-attachments/assets/ae584abc-bf23-4b2e-b976-cd3fb4c88721" />
