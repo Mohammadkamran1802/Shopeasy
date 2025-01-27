@@ -127,7 +127,8 @@ http://localhost:3000
  <img width="209" alt="Produc Found" src="https://github.com/user-attachments/assets/6ecc3611-4af4-443f-a416-90a6473c31e4" />
  
 ## Product added to cart:-simply click add to cart button:-
-<img width="300" alt="product added to cart " src="https://github.com/user-attachments/assets/9ae2691c-6349-4119-861f-4b13588f4a47" />
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/e03962da-7cef-4612-a8d2-6f2c19815859" />
+
 
 
  
