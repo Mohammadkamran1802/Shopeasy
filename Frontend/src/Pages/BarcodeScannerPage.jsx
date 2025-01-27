@@ -172,20 +172,21 @@ const BarcodeScannerPage = () => {
       )}
 
       {/* Display Cart */}
-      <div className="cart">
-        <h3>Cart Items</h3>
-        {cart.length > 0 ? (
-          <ul>
-            {cart.map((item, index) => (
-              <li key={index}>
-                {item.name} - ${item.price}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p>No items in the cart.</p>
-        )}
-      </div>
+       <div className="cart">
+                <h3>Cart Items</h3>
+                {cart.length > 0 ? (
+                    <ul>
+                        {cart.map((item, index) => (
+                            <li key={index}>
+                                <span className="cart-item-name">{item.name}</span>
+                                <span className="cart-item-price">${item.price}</span>
+                            </li>
+                        ))}
+                    </ul>
+                ) : (
+                    <p className="empty-cart">No items in the cart.</p>
+                )}
+        </div>
     </div>
   );
 };
